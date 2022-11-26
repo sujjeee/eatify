@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div className="flex max-w-[1240px] mx-auto items-center p-4 justify-between">
                 <div className="cursor-pointer">
-                    <h1 className='font-bold text-3xl sm:text-4xl lg:text-4xl '>Eatifyy</h1>
+                    <h1 className='font-bold text-3xl sm:text-4xl lg:text-4xl '>Eatify</h1>
                 </div>
                 <div className='flex'>
                 <div className="flex justify-center bg-gray-200 h-10 rounded-md sm:pl-2 sm:w-[400px] lg:w-[400px] items-center">

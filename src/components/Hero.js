@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Hero = () => {
     return (
-        <Carousel className="max-w-[1240px] mx-auto" width={"none"} emulateTouch={true}  showArrows={false} showStatus={false}  showIndicators={false} swipeable={true} autoPlay infiniteLoop>
+        <Carousel className="max-w-[1240px] mx-auto" showThumbs={false} width={"none"} emulateTouch={true}  showArrows={false} showStatus={false}  showIndicators={false} swipeable={true} autoPlay infiniteLoop>
                 <div className='max-w-[1240px] mx-auto p-4 '>
                     <div className='max-h-[500px] relative'>
                         <div className='absolute  w-full h-full max-h-[500px] bg-black/40 text-gray-200 flex flex-col justify-center'>
